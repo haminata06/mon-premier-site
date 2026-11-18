@@ -1,4 +1,4 @@
-# Mon premier site web 🌐
+## Mon premier site web 🌐
 
 ## À propos
 Bienvenue sur mon premier projet web !
