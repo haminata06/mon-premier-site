@@ -6,16 +6,24 @@
     <title>Escale. AGENCE DE VOYAGE</title>
     <meta name="description" content="Escale, agence de voyages">
     <link rel="icon" href="images/logo.svg">
+    <link rel="preconnect"
+  href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com"
+  crossorigin>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Playfair+Display…&family=Poppins…">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/script.js"></script>
 </head>
 <body>
-    <header>
+    <header class="entete">
         <a class="logo" href="#"> 
-            <img src="images/logo.svg" alt="" widht="40" height="40">
+            <img src="images/logo.svg" alt="" width="40" height="40">
             <span> Escale</span>
         </a>
-        <nav class="menu" id="menu" aria-label="Menu principal">
+        <nav class="menu" id="menu" aria-label="Menu principal"> 
             <ul>
-                <li><a href="https://www.w3schools.com/html/default.asp"> Destinations</a></li>
+                <li><a href="#destinations"> Destinations</a></li>
                 <li><a href="#pourquoi"> Pourquoi Escale</a></li>
                 <li><a href="#avis"> Avis</a></li>
                 <li><a href="#devis" class="bouton"> Demander un devis</a></li>
@@ -23,6 +31,7 @@
         </nav>
     </header>
     <main> 
+
         <section class="hero">
         <div class="hero-contenu">
             <p class="surtitre">Agence de voyages depuis 2014</p>
@@ -36,6 +45,57 @@
             </div>
         </div>
         </section>
+        <section>
+            <div class="cartes">
+               <div class="carte"> 
+                    <img src="images/marrakech.jpg" alt="" width="40" height="40"> 
+                    <div class="carte-contenu">
+                       <p> Bienvenue à Marrakech</p>
+                    </div> 
+               </div>
+               <div class="carte"> 
+                   <img src="images/hero.jpg" alt="" width="40" height="40">
+                   <div class="carte-contenu">
+                       <p> HERO</p>
+                    </div> 
+               </div>
+               <div class="carte"> 
+                    <img src="images/bali.jpg" alt="" width="40" height="40">
+                    <div class="carte-contenu">
+                       <p> americain est une façon de mieux s'adapter à ton ordinateur </p>
+                    </div>
+               </div>
+               <div class="carte"> 
+                    <img src="images/islande.jpg" alt="" width="40" height="40">
+                    <div class="carte-contenu">
+                       <p> ISLANDE</p>
+                    </div> 
+               </div>
+               <div class="carte"> 
+                    <img src="images/kyoto.jpg" alt="" width="40" height="40">
+                    <div class="carte-contenu">
+                       <p> KYOTO</p>
+                    </div>  
+               </div>
+               <div class="carte"> 
+                    <img src="images/lisbonne.jpg" alt="" width="40" height="40">
+                    <div class="carte-contenu">
+                       <p> LISBONNE</p>
+                    </div> 
+                </div>
+            </div>
+        </section>
+
+        <!-- <section>
+            <div class="champ">
+                <label for="nom">Nom et prénom</label>
+                <input type="text" id="nom" name="nom" autocomplete="name" required>
+            </div>
+            <div class="champ">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" autocomplete="email" required>
+            </div>
+        </section> -->
     </main>
 </body>
 </html>
