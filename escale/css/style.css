@@ -59,7 +59,7 @@ h2 {
 }
  
 .bouton:hover {
-  background: var(--primaire);
+  background: var(--accent);
 }
 .entete{
   position: sticky;
